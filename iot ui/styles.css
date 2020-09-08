@@ -1,0 +1,95 @@
+section{
+    
+    margin-left: 25%;
+    margin-top: 20%;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background: rgba(0,0,0,1);
+}
+
+.left-side img{
+    height: 70px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.right-side {
+    background:skyblue;
+    padding: 5px;
+    color: white;
+    float: right;
+    
+    margin-top: -50px;
+    margin-right: 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600px;
+    transition: 0.5s;
+    transition-property:background;
+}
+.right-side:hover{
+    background:#3D7EB5;
+}
+c
+
+label #side-btn{
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    left:20px;
+    font-size: 26px;
+    margin-top: 150px;
+}
+#check:checked ~ .slidebar {
+    left:-190px;
+}
+#check:checked ~ .slidebar a span{
+display: none;
+}
+#check:checked ~ .slidebar a {
+font-size: 20px;
+margin-left: 170px;
+width: 80px;
+}
+section{
+    
+    margin-left: 25%;
+    margin-top: 20%;
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#check{
+    display: none;
+}
+
+footer{
+    margin-top: 45%;
+    color:seagreen;
+    align-self: center;
+    margin-left:40%;
+}
+footer h6{
+    margin-left:15%;
+}
+
+@media screen and(max-width: 715px){
+    .slidebar a{
+        padding-left: 0;
+    }
+}
+  
